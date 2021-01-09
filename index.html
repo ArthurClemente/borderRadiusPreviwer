@@ -10,22 +10,22 @@
 </head>
 <body>
     <div class="logo">
-        <h1 id="logo">Border Radius Previewer</h1>
+        <h1 id="logo">CSS Border Radius Previewer</h1>
     </div>
     <div class="box">
         <div class="inputBox" id="valorRaio1">
-            <input type="text" name="caixa1" class="propBox" value="0" id="valorRaio1">
+            <input type="text" name="caixa1" class="propBox" value="0" id="inputRaio1" onchange="alterarRaio()">
         </div>
         <div class="inputBox" id="valorRaio2">
-            <input type="text" name="caixa2" class="propBox" value="0" id="valorRaio2">
+            <input type="text" name="caixa2" class="propBox" value="0" id="inputRaio2" onchange="alterarRaio()">
         </div>
         <div class="inputBox" id="valorRaio3">
-            <input type="text" name="caixa3" class="propBox" value="0" id="valorRaio3">
+            <input type="text" name="caixa3" class="propBox" value="0" id="inputRaio3" onchange="alterarRaio()">
         </div>
         <div class="inputBox" id="valorRaio4">
-            <input type="text" name="caixa4" class="propBox" value="0" id="valorRaio4">
+            <input type="text" name="caixa4" class="propBox" value="0" id="inputRaio4" onchange="alterarRaio()">
         </div>
-        <div id="mainBox" style="border-radius: 0px ;">
+        <div id="mainBox">
             <textarea id="codigo" readonly="readonly"></textarea>
         </div>
     </div>
